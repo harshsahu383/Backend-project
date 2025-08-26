@@ -1,6 +1,5 @@
 import mongoose, {Schema} from "mongoose";
 import bcrypt from "bcrypt"
-
 const userShema = new Schema({
   avatar: {
     type: {
