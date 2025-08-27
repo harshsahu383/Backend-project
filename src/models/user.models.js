@@ -51,7 +51,8 @@ const userShema = new Schema({
       type:String
     },
     emailVerificationExpiry:{
-      type:Date
+      type:Date,
+      required:true // have to remove only for push
     }, 
 
 }, {
